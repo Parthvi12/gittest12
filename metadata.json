@@ -1,7 +1,14 @@
 {
-  "fileFormatVersion": 1,
   "clientSchemaVersion": 1,
-  "serverSchemaVersion": 3,
+  "serverSchemaVersion": 4,
+  "pageOrder": [
+    "Page1",
+    "Page1 Copy"
+  ],
+  "publishedPageOrder": [
+    "Page1",
+    "Page1 Copy"
+  ],
   "publishedDefaultPageName": "Page1",
   "unpublishedDefaultPageName": "Page1",
   "invisibleActionFields": {
@@ -10,6 +17,10 @@
       "publishedUserSetOnLoad": false
     },
     "Page1 Copy_JSObject1.myFun2": {
+      "unpublishedUserSetOnLoad": false,
+      "publishedUserSetOnLoad": false
+    },
+    "Page1_Api1": {
       "unpublishedUserSetOnLoad": false,
       "publishedUserSetOnLoad": false
     },
@@ -22,18 +33,7 @@
       "publishedUserSetOnLoad": false
     }
   },
-  "editModeTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false
-  },
-  "publishedTheme": {
-    "name": "Classic",
-    "displayName": "Classic",
-    "isSystemTheme": true,
-    "deleted": false
-  },
   "publishedLayoutmongoEscapedWidgets": {},
-  "unpublishedLayoutmongoEscapedWidgets": {}
+  "unpublishedLayoutmongoEscapedWidgets": {},
+  "fileFormatVersion": 2
 }

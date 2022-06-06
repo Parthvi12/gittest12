@@ -13,19 +13,21 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5016,
+          "bottomRow": 5010,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 56,
+          "version": 59,
           "minHeight": 1292,
           "parentColumnSpace": 1,
+          "dynamicTriggerPathList": [],
           "dynamicBindingPathList": [],
           "leftColumn": 0,
           "children": [
             {
+              "boxShadow": "none",
               "widgetName": "Input1",
               "displayName": "Input",
               "iconSVG": "/static/media/icon.9f505595.svg",
@@ -43,21 +45,27 @@
               "dynamicBindingPathList": [
                 {
                   "key": "defaultText"
+                },
+                {
+                  "key": "accentColor"
                 }
               ],
               "labelStyle": "",
               "inputType": "TEXT",
               "isDisabled": false,
               "key": "uhx11us39b",
+              "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 38,
               "widgetId": "wpj4jaa3lp",
+              "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
               "label": "",
               "version": 2,
               "parentId": "0",
               "renderMode": "CANVAS",
               "isLoading": false,
+              "borderRadius": "0px",
               "iconAlign": "left",
               "defaultText": "{{JSObject1.myFun1()}}"
             }
