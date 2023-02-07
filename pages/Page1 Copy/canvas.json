@@ -65,10 +65,6 @@
           ]
         },
         "layoutOnLoadActions": [],
-        "widgetNames": [
-          "Input1",
-          "MainContainer"
-        ],
         "validOnPageLoadActions": true,
         "id": "Page1 Copy",
         "deleted": false,
@@ -80,6 +76,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "6253eb8920a66f0a70f83b62_6253eba820a66f0a70f83b75"
 }

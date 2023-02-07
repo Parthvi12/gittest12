@@ -13,13 +13,13 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 5010,
+          "bottomRow": 380,
           "containerStyle": "none",
           "snapRows": 125,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
-          "version": 59,
+          "version": 76,
           "minHeight": 1292,
           "parentColumnSpace": 1,
           "dynamicTriggerPathList": [],
@@ -57,6 +57,7 @@
               "labelTextSize": "0.875rem",
               "isRequired": false,
               "rightColumn": 38,
+              "dynamicHeight": "FIXED",
               "widgetId": "wpj4jaa3lp",
               "accentColor": "{{appsmith.theme.colors.primaryColor}}",
               "isVisible": true,
@@ -66,16 +67,15 @@
               "renderMode": "CANVAS",
               "isLoading": false,
               "borderRadius": "0px",
+              "maxDynamicHeight": 9000,
               "iconAlign": "left",
-              "defaultText": "{{JSObject1.myFun1()}}"
+              "defaultText": "{{JSObject1.myFun1()}}",
+              "minDynamicHeight": 4
             }
           ]
         },
         "layoutOnLoadActions": [],
-        "widgetNames": [
-          "Input1",
-          "MainContainer"
-        ],
+        "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
         "id": "Page1",
         "deleted": false,
@@ -87,6 +87,5 @@
     "policies": []
   },
   "deleted": false,
-  "policies": [],
   "gitSyncId": "6253eb8920a66f0a70f83b62_6253eb8920a66f0a70f83b64"
 }
