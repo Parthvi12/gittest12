@@ -19,6 +19,10 @@
     {
       "id": "Page2",
       "isDefault": false
+    },
+    {
+      "id": "Public.banquet_db",
+      "isDefault": false
     }
   ],
   "viewMode": false,
@@ -32,7 +36,11 @@
   "publishedAppLayout": {
     "type": "DESKTOP"
   },
-  "unpublishedCustomJSLibs": [],
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
+    }
+  ],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
