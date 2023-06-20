@@ -8,6 +8,7 @@
       "pluginId": "restapi-plugin",
       "organizationId": "623c6dd8e0a3cd4540af562e",
       "datasourceConfiguration": {
+        "sshProxyEnabled": false,
         "url": "http://hp-api.herokuapp.com"
       },
       "invalids": [],
