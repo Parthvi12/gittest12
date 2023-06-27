@@ -1,1 +1,0 @@
-select * from order_table where customer_id={{List1.selectedItem.cid}}::varchar

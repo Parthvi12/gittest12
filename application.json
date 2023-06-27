@@ -1,14 +1,6 @@
 {
   "pages": [
     {
-      "id": "Search",
-      "isDefault": false
-    },
-    {
-      "id": "Dashboard",
-      "isDefault": false
-    },
-    {
       "id": "Page1",
       "isDefault": true
     },
@@ -19,28 +11,14 @@
     {
       "id": "Page2",
       "isDefault": false
-    },
-    {
-      "id": "Public.banquet_db",
-      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
-  "color": "#ECECEC",
-  "icon": "pizza",
-  "unpublishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "publishedAppLayout": {
-    "type": "DESKTOP"
-  },
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "jsonwebtoken_/libraries/jsonwebtoken@8.5.1.js"
-    }
-  ],
+  "color": "#E4D8CC",
+  "icon": "football",
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
