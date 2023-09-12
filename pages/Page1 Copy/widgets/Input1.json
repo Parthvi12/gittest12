@@ -1,4 +1,5 @@
 {
+    "boxShadow": "none",
     "widgetName": "Input1",
     "displayName": "Input",
     "iconSVG": "/static/media/icon.9f505595.svg",
@@ -13,20 +14,29 @@
     "dynamicTriggerPathList": [],
     "resetOnSubmit": true,
     "leftColumn": 18,
-    "dynamicBindingPathList": [{"key": "defaultText"}],
+    "dynamicBindingPathList": [
+        {"key": "defaultText"},
+        {"key": "accentColor"}
+    ],
     "labelStyle": "",
     "inputType": "TEXT",
     "isDisabled": false,
     "key": "uhx11us39b",
+    "labelTextSize": "0.875rem",
     "isRequired": false,
     "rightColumn": 38,
+    "dynamicHeight": "FIXED",
     "widgetId": "wpj4jaa3lp",
+    "accentColor": "{{appsmith.theme.colors.primaryColor}}",
     "isVisible": true,
     "label": "",
     "version": 2,
     "parentId": "0",
     "renderMode": "CANVAS",
     "isLoading": false,
+    "borderRadius": "0px",
+    "maxDynamicHeight": 9000,
     "iconAlign": "left",
-    "defaultText": "{{JSObject1.myFun1()}}"
+    "defaultText": "{{JSObject1.myFun1()}}",
+    "minDynamicHeight": 4
 }
