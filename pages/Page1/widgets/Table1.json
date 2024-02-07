@@ -70,6 +70,7 @@
     "rightColumn": 45,
     "textSize": "0.875rem",
     "widgetId": "6oc7btvxw6",
+    "enableServerSideFiltering": false,
     "minWidth": 450,
     "tableData": "",
     "label": "Data",
